@@ -1,0 +1,46 @@
+body {
+	font-family: arial;
+}
+
+
+div {
+	font-size:22px;
+
+}
+
+
+.caja.primera {
+	background: #B0CC2D;
+	border: 5px solid #63C265;
+}
+
+.row{
+	display: flex; /*Se comporta como un contenedor flexible donde anidan todos los demás elementos */
+	width: 100%;
+	border: 1px solid silver;
+}
+
+.caja {
+	flex-grow: 1; /* Indica el tamaño relativo del elemento con respecto al resto de elementos dentro del mismo contenedor*/
+	flex-basis:0; /* determina si todos serán iguales "0" o si el tamaño será relativo al contenido "1" */
+	border: 5px solid #BD3D3D;
+	background: #3380D6; /*color de fondo*/
+	color:white;
+	padding:10px; /*relleno*/
+	margin:10px; /*margen*/
+	text-transform: uppercase; /*los pone en mayúsculas*/
+}
+
+
+#destacada{
+	margin:20px 0;
+	outline:5px solid #7C2960;
+}
+
+#especial{
+	font-weight: bold;
+	color:#930D0D;
+	background: #D34159;
+	border: 5px solid #690723;
+}
+

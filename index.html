@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><!-- Idica la codificación de caracteres que vamos a utilizar, soluciona el problema de las tildes-->
+      <title>Aprendiendo un poco mÃ¡s sobre el modelo de caja y las prioridad de las reglas</title>
+      <link rel="stylesheet" type="text/css" href="estilos.css"/>
+  </head>
+
+  <body>
+    <h1>Aprendiendo un poco más sobre el modelo de caja y las prioridad de las reglas</h1>
+
+      <div class="row">
+          <div class="caja primera">Lorem Ipsum</div>
+          <div class="caja">Lorem</div>
+      </div>
+
+      <div class="row">
+          <img height="200px" src="modelocaja.jpg"/>
+      </div>
+
+      <div class="row">
+        <div class="caja primera">Ipsum</div>
+        <div class="caja">Lorem ipsum dolor</div>
+        <div class="caja" id="especial">caja con id</div>
+        <div class="caja">Ipsum</div>
+      </div>
+
+      <div class="row" id="destacada">
+        <div class="caja primera">pruebas</div>
+        <div class="caja">pruebas</div>
+        <div class="caja">pruebas</div>
+      </div>
+
+      
+  </body>
+
+</html>
